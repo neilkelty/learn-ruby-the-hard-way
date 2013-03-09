@@ -1,3 +1,5 @@
+# This doesn't follow the exercise exactly as described. I needed to refresh some basic areas after taking a long break from Ruby.
+
 tests = []
 answers = []
 
