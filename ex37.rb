@@ -21,7 +21,6 @@ else
   puts "Just go home!"
 end
 
-
 # BEGIN
 print_separator("BEGIN")
 
