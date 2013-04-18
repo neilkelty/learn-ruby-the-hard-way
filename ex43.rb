@@ -78,7 +78,20 @@ class Game
   end
 
   def later_weapon_armory
-    
+    puts "You do a dive roll into the Weapon Armory, crouch and scan the room."
+    puts "for more Gotons that might be hiding. It's dead quiet, too quiet."
+    puts "You stand up and run to the far side of the room and find the"
+    puts "neutron bomb in its container. There's a keypad lock on the box"
+    puts "and you need the code to get the bomob out. If you get the code"
+    puts "wrong 10 times then the lock closes forever and you can't"
+    puts "get the bomb. The code is 3 digits."
+    code "%s%s%s" % [rand(9) + 1, rand(9)+1, rand(9)+1]
+    print "[keypad]>"
+    guess = gets.chomp
+    guesses = 0
+
+    while guess != code and guesses < 10
+      
   end
 
 
